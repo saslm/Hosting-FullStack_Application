@@ -61,6 +61,6 @@ workflows:
     jobs:
     # Build & Deploy project on Main Branch
       - Build-Deploy:
-        filters:
+         filters:
             branches:
               only: main
