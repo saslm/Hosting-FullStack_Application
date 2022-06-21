@@ -20,8 +20,8 @@ jobs:
       - eb/setup
       # Install node modules for frontend:
       - run:
-        name: Frontend Install
-        command: npm run frontend:install
+         name: Frontend Install
+         command: npm run frontend:install
       # Build frontend:
       - run:
           name: Frontend Build
